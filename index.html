@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto X-Men - Semana do Zero Ao Programador Contratado</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img class="logo" src="./src/imagens/KamenRider-Logo.png" alt="Logo x-men">
+    </header>
+
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">Selecione um personagem</h1>
+        <ul class="lista-de-personagens">
+          <li class="personagem selecionado" id="kuuga"data-name="Kamen Rider Kuuga" data-description="Yusuke Godai, um jovem otimista e destemido que acaba se tornando o hospedeiro do poderoso Kuuga um ser ancestral que é despertado para combater a ameaça dos Grongi.">
+            <img
+              src="./src/imagens/kuuga.jpg"
+              alt="Kamen Rider Kuuga"
+            />
+          </li>
+          <li class="personagem" id="decade" data-name="Kamen Rider Decade" data-description="Tsukasa Kadoya,um jovem misterioso que possui um poder único que lhe permite se transformar em diferentes Riders porem não é apenas um Rider comum, pois carrega consigo uma profecia de destruição e renascimento de mundos."
+          >
+            <img 
+              src="./src/imagens/decade.png"
+              alt="Kamen Rider Decade"
+            />
+          </li>
+
+          <li class="personagem" id="double" data-name="Kamen Rider W" data-description="Kamen Rider Double é formado por dois indivíduos que se unem para se tornar um só Kamen Rider. Seus nomes são Shotaro Hidari e Philip,Shotaro é o detetive humano e Philip é uma entidade misteriosa que reside no corpo de Shotaro e fornece a habilidade">
+            <img
+              src="./src/imagens/Double.jpg"
+              alt="Kamen Rider Double"
+            />
+          </li>
+
+          <li class="personagem" id="zio" data-name="Kamen Rider Zi-O" data-description="Sougo Tokiwa, um estudante do ensino médio comum que se torna o herói do tempo. Ele recebe um cinto chamado Ziku-Driver e um dispositivo chamado Ridewatches, que lhe permitem se transformar em diferentes Kamen Riders do passado e do futuro.">
+            <img
+              src="./src/imagens/Zi-o.jpg"
+              alt="Kamen Rider Zi-o"
+            />
+          </li>
+
+          <li class="personagem" id="build" data-name="Kamen Rider Build" data-description="Sento Kiryu, um cientista talentoso que perdeu suas memórias. Ele se torna Kamen Rider Build após a descoberta de um misterioso dispositivo chamado Driver e das Full Bottles concedendo a capacidade de se transformar em várias formas.">
+            <img
+              src="./src/imagens/Build.jpg"
+              alt="Kamen Rider Build"
+            />
+          </li>
+
+          <li class="personagem" id="kiva" data-name="Kamen Rider Kiva" data-description="Wataru Kurenai,Um jovem tímido e introvertido que se transforma em Kamen Rider Kiva para lutar contra a ameaça dos Fangires, uma raça de vampiros que se alimenta da energia vital dos humanos,Kiva possui uma forma humana e uma forma de monstro.">
+            <img
+              src="./src/imagens/Kiva.jpg"
+              alt="Kamen Rider Kiva"
+            />
+          </li>
+
+          <li class="personagem" id="exaid" data-name="Kamen Rider Ex-Aid" data-description="Emu Hojo, um jovem médico que se transforma em Kamen Rider para combater os Bugsters, uma forma de vírus de computador que infecta os seres humanos e os transforma em monstros,Ex-Aid tem a capacidade de se transformar em várias formas, cada uma inspirada em diferentes gêneros de videogame.">
+            <img
+              src="./src/imagens/Ex-Aid.jpg"
+              alt="Kamen Rider Ex-Aid"
+            />
+          </li>
+
+          <li class="personagem" id="deno" data-name="Kamen Rider Den-O" data-description="Ryotaro Nogami, um jovem desajeitado que acaba se envolvendo em uma batalha contra os Imagins, criaturas vindas do futuro que buscam alterar o curso da história. Ryotaro se transforma em Kamen Rider Den-O para proteger o tempo e evitar a mudança dos eventos importantes.">
+            <img
+              src="./src/imagens/Den-O.jpg"
+              alt="Kamen Rider Den-O"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="./src/imagens/card-kuuga.png"
+          alt="Personagem Selecionado"
+        />
+
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Kamen Rider Kuuga</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            Ele tem o poder de disparar rajadas ópticas por um acidente que
+            aconteceu com ele quando criança, mas não consegue controlá-los
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
